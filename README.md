@@ -1,39 +1,69 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Cooking Cauldron,
+The purpose of this website is to be an aid for anyone who needs it using this website will allow users to store & share recipes for Breakfast, Lunch & Dinner while offering a simple and easy
+to use layout:
 
-Welcome USER_NAME,
+Finding a recipe:
+- Once the user has decided which category they are looking for (Breakfast, Lunch or Dinner) they will scroll to the desired carousel (indicated by the name)
+- Scroll either left or right until the desired recipe comes up
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## UX:
+### User stories
+I'm a cooking teacher at my local secondary school and i need a place to keep recipes (besides a book) and be able to filter them for my classes.
 
-## Gitpod Reminders
+I'm a home cook and would like a website to keep and browse recipes to see what's new and keep the classics.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Strategy
+My goal with this website is to keep is simple and easy to use dore the user by showing them everything they need and pre filtering the categories so it's easy to use,
+I also like to keep the website sleek and minimalistic so the user can traverse easily.
 
-`python3 -m http.server`
+### Scope
+For the users, I want to provide them with tons of recipes without giving them too much to go wrong e.g pre filter the categorys, say who added it.
 
-A blue button should appear to click: *Make Public*,
+### Structure
+I wanted to let the user scroll through recipes without them taking up to much screen space hence the carousel.
 
-Another blue button should appear to click: *Open Browser*.
+### Skeleton
+wireframe-ml2
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Surface
+The colour scheme is grey and white to give the website a minimal look.
 
-A blue button should appear to click: *Make Public*,
+## Technologies
 
-Another blue button should appear to click: *Open Browser*.
+- HTML
+- CSS
+- JAVASCRIPT
+- BOOTSTRAP
+- PYTHON
+- FLASK
+- HEROKU
+- MONGPDB
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+### Features
+The features of this website are:
+- Filtered Listings
+- Carousels
+- Adding recipes
+### Features i would like to implement in the future:
 
-## Updates Since The Instructional Video
+- Desert Filter
+- Edit function
+- Search Bar
+## Testing
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Deployment
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
+## Credits
+### Content
 
-Happy coding!
+
+
+### Media
+
+
+
+### Acknowledgements
