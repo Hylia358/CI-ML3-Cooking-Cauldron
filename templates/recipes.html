@@ -1,0 +1,57 @@
+{% extends 'base.html' %} {% block content %}
+<h3>Breakfast</h3>
+<div class="container">
+
+	<div class="carousel">
+		<div class="nav nav-left">
+			<div class="ion-chevron-left carousel-arrow-icon-left"></div>
+		</div>
+
+		<div class="carousel-content">
+
+			<div class="slide slide-1">
+				<div class="container-fluid back">
+					<div class="container">
+						<div class="row meals">
+							{% for recipe in recipes %}
+							{% if recipe.category_name == "Breakfast" %}
+							<div class="col s12 m4">
+								<div class="card">
+									<div class="card-image">
+										<span class="card-title"><strong>{{ recipe.Rep_Name }}</strong></span>
+										<a href="{{url_for('recipe', recipe_id=recipe._id)}}"
+											class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">info_outline</i></a>
+									</div>
+									<div class="card-content">
+										<p>{{ recipe.short_describe }}</p>
+									</div>
+								</div>
+							</div>
+							{% endif %}
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slide slide-2">
+				<div>dog</div>
+			</div>
+			<div class="slide slide-3">
+				<div>mouse</div>
+			</div>
+			<div class="slide slide-4">
+				<div>hen</div>
+			</div>
+			<div class="slide slide-5">
+				<div>bug</div>
+			</div>
+
+		</div>
+
+		<div class="nav nav-right">
+			<div class="ion-chevron-right carousel-arrow-icon-right"></div>
+		</div>
+	</div>
+
+</div>
+{% endblock %}

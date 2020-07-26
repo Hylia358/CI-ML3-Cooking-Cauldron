@@ -49,6 +49,7 @@ The features of this website are:
 - Desert Filter
 - Edit function
 - Search Bar
+- Add image function
 ## Testing
 
 
