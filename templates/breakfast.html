@@ -1,0 +1,25 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="container-fluid back">
+  <div class="container-fluid">
+    <div class="row recipes">
+      {% for recipe in recipes %}
+      <div class="col s12 m4">
+        <div class="card grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">{{ recipe.Rep_Name }}</span>
+            <p>
+              {{ recipe.short_describe }}
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="{{url_for('recipe', recipe_id=recipe._id)}}">View Recipe</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endfor %} {% endblock %}
