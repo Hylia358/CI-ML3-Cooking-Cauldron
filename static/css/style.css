@@ -5,14 +5,9 @@
 }
 
 /* Recipe Card Ended */
-
 /* Nav & Footer CSS */
 
-nav {
-    background-color: #303030;
-}
-
-.page-footer {
+nav, .page-footer {
     background-color: #303030;
 }
 
@@ -25,5 +20,9 @@ body {
 main {
     flex: 1 0 auto;
   }
+
+h5 {
+    text-decoration: underline;
+}
 
 /* Nav & Footer Ended */
