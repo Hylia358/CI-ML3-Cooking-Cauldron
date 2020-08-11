@@ -26,3 +26,20 @@ h5 {
 }
 
 /* Nav & Footer Ended */
+/* About-Us Page */
+
+.about-page{
+    text-align: center;
+}
+
+.about-1{
+    border: 1px solid black;
+}
+
+/* About End */
+
+/* Add recipe page */
+
+.add_rep_top{
+    padding-top: 10px;
+}
