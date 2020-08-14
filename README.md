@@ -23,8 +23,14 @@ For the users, I want to provide them with tons of recipes without giving them t
 I wanted to let the user scroll through recipes without them taking up to much screen space hence the carousel.
 
 ### Skeleton
-wireframe-ml2
 
+![Bfast_lunch_dinner pages (web)](https://user-images.githubusercontent.com/55837085/90179799-ecc69100-dda5-11ea-8a76-961bbb119617.png)
+
+![add-recipe-page (web)](https://user-images.githubusercontent.com/55837085/90175612-95252700-dd9f-11ea-953e-b27c39da3441.png)
+
+![phone bfast_lunch_dinner pages (mobile)](https://user-images.githubusercontent.com/55837085/90179852-023bbb00-dda6-11ea-9767-61bd9d4ad3ed.png)
+
+![phone-add-page (mobile)](https://user-images.githubusercontent.com/55837085/90179883-0e277d00-dda6-11ea-81c3-82eff3139e3f.png)
 ### Surface
 The colour scheme is grey and white to give the website a minimal look.
 
@@ -60,11 +66,12 @@ The features of this website are:
 
 ## Credits
 ### Content
-
+All Recipes were collected from recipe books/websites and other useres own input
 
 
 ### Media
-
+All Media was my own
 
 
 ### Acknowledgements
+Gordon Ramsays website
