@@ -1,5 +1,91 @@
 {% extends 'base.html' %} {% block content %}
 
+<div class="container">
+    <div class="row">
+        <div class="col s12">
+            <h4 class="black-text text-lighten-3 center">Recipe Name: <strong>{{ recipe.Rep_Name }}</strong></h4>
+        </div>
+        <div class="col s12">
+           <h4 class="black-text text-lighten-3 center">Description: <strong>{{ recipe.short_describe }}</strong></h4>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <h5>Ingredients:</h5>
+        <div class="col s4">
+            <li>{{ recipe.Ing_1 }}</li>
+        </div>
+        <div class="col s4">
+            <li>{{ recipe.Ing_2 }}</li>
+        </div>
+        <div class="col s4">
+            <li>{{ recipe.Ing_3 }}</li>
+        </div>
+        <div class="col s4">
+            <li>{{ recipe.Ing_4 }}</li>
+        </div>
+        <div class="col s4">
+            <li>{{ recipe.Ing_5 }}</li>
+        </div>
+        <div class="col s4">
+            <li>{{ recipe.Ing_6 }}</li>
+        </div>
+        <div class="col s4">
+            <li>{{ recipe.Ing_7 }}</li>
+        </div>
+        <div class="col s4">
+            <li>{{ recipe.Ing_8 }}</li>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <h5>Steps:</h5>
+        <div class="col s4 recipe-box-info">
+            <li>{{ recipe.Step_one }}</li>
+        </div>
+        <div class="col s4">
+            <li>{{ recipe.step_two }}</li>
+        </div>
+        <div class="col s4">
+            <li>{{ recipe.step_three }}</li>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col s4">
+            <li>{{ recipe.step_four }}</li>
+        </div>
+        <div class="col s4">
+            <li>{{ recipe.step_five }}</li>
+        </div>
+        <div class="col s4">
+            <li>{{ recipe.step_six }}</li>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col s4">
+            <li>{{ recipe.step_seven }}</li>
+        </div>
+        <div class="col s4">
+            <li>{{ recipe.step_eight }}</li>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+         <div class="col s12">
+            <h4 class="black-text text-lighten-3 center">Author: <strong>{{ recipe.author }}</strong></h4>
+        </div>
+    </div>
+</div>
 
 
 {% endblock %}

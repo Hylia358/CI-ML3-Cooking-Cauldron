@@ -29,7 +29,7 @@ def lunch():
 
 @app.route('/dinner')
 def dinner():
-    recipes = mongo.db.recipes.find({
+    recipes = mongo.db.Recipes.find({
                                "Category_name": "Dinner"})
     return render_template('dinner.html',
                            recipes=recipes)
@@ -53,8 +53,8 @@ def add_rep():
 
 
 @app.route('/recipe/<recipe_id>', methods=['GET', 'POST'])
-def recipe(recipe_id):
-    the_recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
+def recipe_page(recipe_id):
+    the_recipe = mongo.db.Recipes.find_one({"_id": ObjectId(recipe_id)})
     return render_template('recipe.html', recipe=the_recipe)
 
 

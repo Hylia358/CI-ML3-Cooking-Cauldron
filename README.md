@@ -57,7 +57,100 @@ The features of this website are:
 - Search Bar
 - Add image function
 ## Testing
+The testing for this website was carried out manually by me, I tested against User Stories, Dev tools & WS3 Validators,
+Please see bottom of page for results:
 
+These results are accurate to the time of testing (23/08/2020 11:52)
+<table>
+    <tr>
+        <th>Page?</th>
+        <th>Desktop/Mobile</th>
+        <th>Performance</th>
+        <th>Accessibility</th>
+        <th>Best Practices</th>
+        <th>SEO</th>
+    </tr>
+    <tr>
+        <th>Breakfast</th>
+        <th>Desktop</th>
+        <th>99/100</th>
+        <th>93/100</th>
+        <th>92/100</th>
+        <th>100/100</th>
+    </tr>
+    <tr>
+        <th>Breakfast</th>
+        <th>Mobile</th>
+        <th>89/100</th>
+        <th>93/100</th>
+        <th>92/100</th>
+        <th>100/100</th>
+    </tr>
+    <tr>
+        <th>Lunch</th>
+        <th>Desktop</th>
+        <th>100/100</th>
+        <th>93/100</th>
+        <th>92/100</th>
+        <th>100/100</th>
+    </tr>
+    <tr>
+        <th>Lunch</th>
+        <th>Mobile</th>
+        <th>88/100</th>
+        <th>93/100</th>
+        <th>92/100</th>
+        <th>100/100</th>
+    </tr>
+    <tr>
+        <th>Dinner</th>
+        <th>Desktop</th>
+        <th>99/100</th>
+        <th>93/100</th>
+        <th>92/100</th>
+        <th>100/100</th>
+    </tr>
+    <tr>
+        <th>Dinner</th>
+        <th>Mobile</th>
+        <th>90/100</th>
+        <th>93/100</th>
+        <th>92/100</th>
+        <th>100/100</th>
+    </tr>
+    <tr>
+        <th>Add Recipe</th>
+        <th>Desktop</th>
+        <th>99/100</th>
+        <th>81/100</th>
+        <th>92/100</th>
+        <th>100/100</th>
+    </tr>
+    <tr>
+        <th>Add Recipe</th>
+        <th>Mobile</th>
+        <th>68/100</th>
+        <th>81/100</th>
+        <th>92/100</th>
+        <th>100/100</th>
+    </tr>
+    <tr>
+        <th>Recipes (Individual recipe page)</th>
+        <th>Desktop</th>
+        <th>100/100</th>
+        <th>93/100</th>
+        <th>92/100</th>
+        <th>100/100</th>
+    </tr>
+    <tr>
+        <th>Recipes (Individual recipe page)</th>
+        <th>Mobile</th>
+        <th>87/100</th>
+        <th>93/100</th>
+        <th>92/100</th>
+        <th>100/100</th>
+    </tr>
+    
 
 
 ## Deployment

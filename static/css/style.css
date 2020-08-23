@@ -43,3 +43,28 @@ h5 {
 .add_rep_top{
     padding-top: 10px;
 }
+
+/* Navbar */
+
+.nav-1 {
+    width: 100%;
+    height: 55px;
+    background-color: #545454;
+    text-align: center;
+}
+
+.nav-2 {
+    width: 100%;
+    height: 40px;
+    background-color: #686868;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.openbutton {
+    color: #ffffff;
+    font-size: 26px;
+    padding: 5px;
+}
