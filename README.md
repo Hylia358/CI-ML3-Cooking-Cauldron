@@ -32,7 +32,9 @@ I wanted to let the user scroll through recipes without them taking up to much s
 
 ![phone-add-page (mobile)](https://user-images.githubusercontent.com/55837085/90179883-0e277d00-dda6-11ea-81c3-82eff3139e3f.png)
 ### Surface
-The colour scheme is grey and white to give the website a minimal look.
+The reasoning behind my simple Grays/white/black color scheme is:
+- Simple but effective (No uneseceray styles diverting the user from the reason for being here)
+- Minimalistic (i didn't want to overload the user with thousands of different things going on all around them, they need a recipe so they come here a find it.)
 
 ## Technologies
 
@@ -56,9 +58,23 @@ The features of this website are:
 - Edit function
 - Search Bar
 - Add image function
+
 ## Testing
-The testing for this website was carried out manually by me, I tested against User Stories, Dev tools & WS3 Validators,
-Please see bottom of page for results:
+The testing for this website was carried out manually by me, I tested against User Stories, Dev tools & W3C Validators,
+Please see below/bottom of page for results:
+
+User Stories:
+I'm a cooking teacher at my local secondary school, and I need a place to keep recipes (besides a book) and be able to filter them for my classes:
+- Click Add recipes
+- Enter details about the recipe
+- head to either breakfast/lunch/dinner page to see your added recipe (dependant on which category you chose.)
+
+I'm a home cook and would like a website to keep and browse recipes to see what's new and keep the classics:
+- Recipes can be added to her (see above)
+- to browse recipes click on either Breakfast/lunch/dinner to see pre-filtered results
+- find a recipe and enjoy
+
+Web has been tested with W3C Validators which states no errors.
 
 These results are accurate to the time of testing (23/08/2020 11:52)
 <table>
