@@ -6,6 +6,8 @@ Finding a recipe:
 - Once the user has decided which category they are looking for (Breakfast, Lunch or Dinner) they will scroll to the desired carousel (indicated by the name)
 - Scroll either left or right until the desired recipe comes up
 
+My main goal with this website was not to rely on Styling heavily but to focus more on useability, e.g. I want to provide them with what they need rather than looking all fancy.
+
 ## UX:
 ### User stories
 I'm a cooking teacher at my local secondary school and i need a place to keep recipes (besides a book) and be able to filter them for my classes.
@@ -171,8 +173,13 @@ These results are accurate to the time of testing (23/08/2020 11:52)
 
 ## Deployment
 
+This project was deployed using Heroku, I did this by following the deployment process according to Code Institutes Videos:
+- Create App
+- Set Name and country 
+- set up port/ip and anything else e.g mongodb connection then push code to heroku aswell as Github
 
-
+Link to Heroku app https://cookbook-ci.herokuapp.com/
+ 
 ## Credits
 ### Content
 All Recipes were collected from recipe books/websites and other useres own input
